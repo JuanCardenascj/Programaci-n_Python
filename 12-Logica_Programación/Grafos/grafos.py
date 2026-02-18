@@ -16,6 +16,32 @@
     4. Internet
     5. Juegos
     6. Sistemas de recomenndación
+
+Un grafo es una estructura de datos que sirve para representar relaciones entre cosas.
+
+Un grafo tiene solo dos elementos:
+
+Nodos (o vértices)
+
+Solo los elementos principales.
+
+Ejemplos:
+  1. Personas
+  2. Ciudades
+  3. Usuarios
+  4. Vehículos
+  5. Puntos de recolección
+
+
+Aristas (o conexiones)
+
+Son las relaciones entre los nodos.
+
+Ejemplos:
+   1. Amistad entre personas
+   2. Carreteras entre ciudades
+   3. Relación usuario -> Solicitud
+   4. Ruta vehículo -> Barrio
 """
 
 #Crear un grafo con diccionario
@@ -25,3 +51,15 @@ grafo = {
     "C": ["A", "D"],
     "D": ["B", "C"]
 }
+
+#Forma1: Lista de Adyacencia - Se presenta con diccionarios.
+
+grafo2 = {
+    "Juan": ["Maria"],
+    "Maria": ["Juan","Pedro"],
+    "Pedro": ["Maria", "Ana"],
+    "Ana": ["Pedro"]
+} #Cada nodo apunta a sus conexiones
+
+
+#Forma3: Matriz de Adyacencia - Se usa en una tabala

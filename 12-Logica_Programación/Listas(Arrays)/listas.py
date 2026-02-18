@@ -1,5 +1,6 @@
 """Una lista es una coleccion de elmentos almacenados en orden.
-   Permite guardar muchos datos en una sola variable!
+   Permite guardar muchos datos en una sola variable! 
+   Muchos tipos de datos en una sola colección.
    
    Características:
    
@@ -22,6 +23,9 @@ print(numeros[0])
 
 #Para agregar un elemento en la Lista - Array
 numeros.append(897)
+
+#Para insetar datos en medio
+numero.insert(1, 99)
 
 #Para eliminar un elemento en la Lista - Array
 numeros.remove(100)

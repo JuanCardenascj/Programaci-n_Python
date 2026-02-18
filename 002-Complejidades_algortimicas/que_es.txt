@@ -1,0 +1,267 @@
+🧠 ¿Qué es la Complejidad Algorítmica?
+
+Es una forma de medir:
+
+👉 Cuánto crece el trabajo de un programa cuando aumenta la cantidad de datos.
+
+No mide segundos reales.
+Mide cómo escala el algoritmo.
+
+🎯 Ejemplo simple
+
+Buscar un número en una lista.
+
+Si tienes:
+
+[4, 7, 2, 9, 1]
+
+
+Puedes tardar poco…
+
+Pero si tienes:
+
+1 millón de números
+
+
+Ahí empieza a importar la complejidad.
+
+
+
+📊 Tipos de Complejidad (Explicados con ejemplos reales)
+🟢 O(1) — Tiempo constante
+
+👉 El tiempo NO cambia aunque aumenten los datos.
+
+💻 Ejemplo
+lista = [10, 20, 30, 40]
+print(lista[0])
+
+
+Siempre accedes directo al elemento.
+
+No importa si hay 4 o 4 millones.
+
+📦 Ejemplo de la vida real
+
+👉 Mirar la primera página de un libro
+Siempre es inmediato.
+Para que nos quede mas claro debemos entender que el O(1) siempre va a ser o sera el primer ingreso a dicha lista.
+
+
+
+🟡 O(log n) — Logarítmico
+
+👉 El problema se reduce a la mitad cada vez.
+
+💻 Ejemplo típico
+
+Búsqueda binaria.
+
+Buscar un número en una lista ordenada.
+
+Cada vez descartas la mitad.
+
+📦 Ejemplo real
+
+Adivinar un número entre 1 y 100:
+
+¿Está en la mitad?
+¿Mayor o menor?
+
+Cada pregunta reduce el problema mucho.
+
+
+🔵 O(n) — Lineal
+
+👉 El tiempo crece proporcionalmente con los datos.
+
+💻 Ejemplo
+for num in lista:
+    print(num)
+
+
+Si hay 10 datos → 10 pasos
+Si hay 1 millón → 1 millón de pasos
+
+📦 Ejemplo real
+
+Revisar lista de asistencia.
+
+Debes revisar persona por persona.
+
+
+🟠 O(n log n) — Muy eficiente para ordenar
+
+👉 Aparece en algoritmos inteligentes.
+
+💻 Ejemplo
+
+Algoritmos como:
+
+Merge Sort
+
+Quick Sort
+
+📦 Ejemplo real
+
+Ordenar cartas usando estrategia dividir y conquistar.
+
+Divides en grupos pequeños y luego combinas.
+
+
+🔴 O(n²) — Cuadrático
+
+👉 El trabajo crece MUY rápido.
+
+💻 Ejemplo
+for i in lista:
+    for j in lista:
+        print(i, j)
+
+
+Si hay 10 elementos:
+
+10 × 10 = 100
+
+
+Si hay 1000:
+
+1,000,000 😬
+
+📦 Ejemplo real
+
+Comparar cada estudiante con todos los demás.
+
+
+⚫ O(2ⁿ) — Exponencial
+
+👉 Extremadamente costoso.
+
+Crece de forma explosiva.
+
+💻 Ejemplo clásico
+
+Problemas de combinaciones:
+
+Subconjuntos posibles
+
+
+Si:
+
+n = 10 → 1024 combinaciones
+n = 20 → 1 millón
+n = 30 → 1 billón 😱
+
+
+
+🧠 Forma mental fácil de recordarlo
+
+👉 Piensa en qué tan rápido crece el trabajo.
+
+Crecen lento (BUENOS)
+O(1)
+O(log n)
+O(n)
+O(n log n)
+
+Crecen rápido (MALOS)
+O(n²)
+O(2ⁿ)
+
+🎯 Ejemplo real en tu carrera
+
+Si haces software que maneja:
+
+Usuarios
+
+Vehículos
+
+Registros
+
+Recolección de residuos (como tus proyectos)
+
+👉 La complejidad define si el sistema aguanta miles de registros o colapsa.
+
+
+
+👏👏👏 ¡Perfecto!
+Las tres respuestas están 100% correctas. Eso significa que ya estás entendiendo la base de complejidad, y eso es MUY importante para todo lo que sigue.
+
+Vamos a reforzarlo un poco para que te quede sólido (nivel que no se olvida).
+
+✅ Tus respuestas
+1️⃣
+print(lista[5])
+
+✔ Correcto → O(1)
+Tiempo constante.
+
+👉 Accedes directamente a una posición, no interesa cuantos datos existan, accederas a la posición del dato al que decidas acceder
+
+No importa si la lista tiene 10 o 10 millones.
+
+
+2️⃣
+for i in lista:
+    print(i)
+
+✔ Correcto → O(n)
+Tiempo lineal.
+
+👉 Recorres todos los elementos, imprime todos los datos que se encuentren dentro de la lista!
+
+Si duplicas la lista → duplicas el trabajo.
+
+
+
+3️⃣
+for i in lista:
+    for j in lista:
+        print(i, j)
+
+
+✔ Correcto → O(n²)
+Tiempo cuadrático.
+
+👉 Comparas cada elemento con todos los demás.
+
+
+🧠 Ahora vamos a consolidar el conocimiento
+
+Quiero que entiendas algo que separa estudiantes de programadores fuertes:
+
+👉 No memorices
+👉 Aprende a detectar patrones
+
+🔍 Cómo detectar complejidad rápidamente
+📌 Regla 1 — Acceso directo
+lista[i]
+
+
+👉 O(1)
+
+📌 Regla 2 — Un solo ciclo
+for ...
+
+
+👉 O(n)
+
+📌 Regla 3 — Ciclos anidados dependientes de n
+for ...
+   for ...
+
+
+👉 O(n²)
+
+📌 Regla 4 — Reducir a la mitad cada vez
+i *= 2
+
+
+👉 O(log n)
+
+📌 Regla 5 — Mezclas comunes
+for ...
+   while *= 2
+
+
+👉 O(n log n)
