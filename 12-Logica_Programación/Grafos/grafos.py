@@ -62,4 +62,42 @@ grafo2 = {
 } #Cada nodo apunta a sus conexiones
 
 
-#Forma3: Matriz de Adyacencia - Se usa en una tabala
+grafo3 = {
+    "Casa": ["Tienda", "Colegio"],
+    "Tienda": ["Casa", "Hospital"],
+    "Colegio": ["Casa", "Hospital"],
+    "Hospital": ["Tienda", "Colegio"]
+}
+
+"""Operaciones Importantes en los Grafos
+
+Cuando se trabaja con los grafos normalmente haces:
+   
+   1. Recorrerlos
+   2. Buscar rutas
+   3. Encontrar caminos más cortos
+   4. Detectar ciclos
+   5. Encontrar conexiones
+
+Tipos de Grafos!
+1. Grafo no Dirigio - Las conexiones o aristas van en ambos sentidos
+
+ Ejemplo: 
+
+  casa -> tienda
+  tienda -> casa
+
+2. Grafo Dirigido - Las conexiones tienen dirección
+
+  Ejemplo: 
+
+  Casa -> Tienda
+
+3. Grafo Ponderado - Las conexiones tienen peso.
+
+  Ejemplo: 
+
+  Casa -> Tienda (5 minutos)
+  Casa -> Colegio (10 minutos)
+"""
+
