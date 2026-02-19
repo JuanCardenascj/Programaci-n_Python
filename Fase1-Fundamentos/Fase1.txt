@@ -1,0 +1,219 @@
+🔵 FASE 1 – Fundamentos de Programación (Base Mental)
+
+Antes de Python, necesitas pensar como programador.
+
+1️⃣ Lógica de programación
+
+¿Qué es un algoritmo?
+
+Diagramas de flujo
+
+Pseudocódigo
+
+Variables
+
+Tipos de datos
+
+Operadores
+
+Condicionales
+
+Bucles
+
+Funciones
+
+Entrada / salida
+
+2️⃣ Pensamiento computacional
+
+Descomposición
+
+Abstracción
+
+Reconocimiento de patrones
+
+Diseño paso a paso
+
+📌 Objetivo: Resolver problemas sin depender del lenguaje.
+
+🟢 FASE 2 – Python desde cero hasta intermedio
+
+Aquí sí entramos fuerte.
+
+🔹 Sintaxis básica
+
+print()
+
+variables
+
+tipos (int, float, str, bool)
+
+input()
+
+🔹 Estructuras de control
+
+if / elif / else
+
+while
+
+for
+
+🔹 Estructuras de datos
+
+listas
+
+tuplas
+
+diccionarios
+
+sets
+
+🔹 Funciones
+
+parámetros
+
+retorno
+
+scope
+
+lambda
+
+🔹 Programación modular
+
+archivos .py
+
+import
+
+paquetes
+
+🟡 FASE 3 – Fundamentos de Ciencias de la Computación
+
+Aquí es donde muchos fallan.
+
+📚 Estructuras de datos
+
+Arrays
+
+Listas enlazadas
+
+Pilas
+
+Colas
+
+Árboles
+
+Grafos
+
+Tablas hash
+
+📚 Algoritmos
+
+Búsqueda lineal y binaria
+
+Ordenamientos (bubble, insertion, merge, quicksort)
+
+Recursión
+
+Complejidad temporal (Big O)
+
+🟣 FASE 4 – Programación Profesional en Python
+
+Aquí te vuelves desarrollador real.
+
+🔹 Programación Orientada a Objetos (POO)
+
+Clases
+
+Objetos
+
+Encapsulamiento
+
+Herencia
+
+Polimorfismo
+
+Métodos mágicos
+
+🔹 Manejo de errores
+
+try / except
+
+excepciones personalizadas
+
+🔹 Manejo de archivos
+
+lectura y escritura
+
+JSON
+
+CSV
+
+🔹 Testing
+
+unittest
+
+pytest
+
+🔹 Entornos virtuales
+
+venv
+
+pip
+
+🔴 FASE 5 – Especialización (Aquí eliges tu camino)
+
+Python tiene 5 grandes caminos:
+
+Desarrollo Web → Django Software Foundation / Pallets (Flask)
+
+Ciencia de Datos → NumPy Developers / Pandas Development Team
+
+Inteligencia Artificial → OpenAI / TensorFlow
+
+Automatización y scripting
+
+Ciberseguridad
+
+🧠 Pero… ¿Cómo se debe estudiar?
+
+Te voy a dar la metodología correcta:
+
+🥇 Regla 1: 70% práctica – 30% teoría
+
+No leas mucho sin programar.
+
+🥇 Regla 2: Problemas todos los días
+
+Resolver ejercicios
+
+Crear pequeños proyectos
+
+Rehacer cosas desde cero
+
+🥇 Regla 3: Proyecto por nivel
+
+Nivel 1 → Calculadora
+
+Nivel 2 → Sistema de inventario
+
+Nivel 3 → API REST
+
+Nivel 4 → Proyecto completo con base de datos
+
+📅 Plan estructurado (3–6 meses)
+
+Mes 1:
+
+Lógica + Python básico
+
+Mes 2:
+
+Estructuras de datos + algoritmos
+
+Mes 3:
+
+POO + proyectos pequeños
+
+Mes 4–6:
+
+Especialización
