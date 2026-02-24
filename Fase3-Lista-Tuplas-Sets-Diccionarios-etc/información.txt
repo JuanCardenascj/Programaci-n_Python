@@ -1,0 +1,37 @@
+🔹 Qué vamos a ver en Fase 3
+
+Listas
+
+Crear, modificar, recorrer, agregar y eliminar elementos
+
+Índices, slicing y comprensión de listas
+
+Tuplas
+
+Inmutables
+
+Buenas para datos que no deben cambiar
+
+Sets
+
+Operaciones de unión, intersección, diferencia
+
+Eliminación de duplicados
+
+Subconjuntos y superconjuntos
+
+Diccionarios
+
+Clave → valor
+
+Acceso, actualización, eliminación
+
+Iteración sobre claves, valores y items
+
+Operaciones combinadas
+
+Listas dentro de diccionarios
+
+Diccionarios dentro de listas
+
+Sets dentro de listas/diccionarios
