@@ -1,0 +1,17 @@
+🚀 Ahora viene el siguiente salto real
+
+Métodos especiales (dunder methods).
+
+Aquí empieza el Python verdaderamente elegante:
+
+__str__
+
+__repr__
+
+__len__
+
+__add__
+
+__eq__
+
+__call__
