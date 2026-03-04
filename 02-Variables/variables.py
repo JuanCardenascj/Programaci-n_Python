@@ -1,22 +1,22 @@
-"""1. Es un espacio en memoria donde guardamos información
-   2. Son variables porque pueden variar su valor"""
-
+#Variables de Tipo STR O CADENA
 nombre = "David" #Primero declara y luego la define
-nombre = "Cárdenas"
-nombre = "Jorge"
+nombre = "Cárdenas" #Primero declara y luego la define
+nombre = "Jorge" #Primero declara y luego la define
 
-"""Concatenar con +"""
-pasada = "Hola " + " ¿Como estás"
+#Variables de Tipo Int o Entero
+num1 = 12
+num2 = 1432
+num3 = 543
 
-"""Ahora la concatenación con f-strings"""
-bienvenida = "Hey"
-salida = "Next"
-resultado = f"Hola {bienvenida} ¿Como estas?"  
+#Variables de Tipo Float o Decimales
+flo1 = 123.21
+flo2 = 3.2
+flo3 = 432.1
 
-"""operadores de pertenecencia (in / not in)"""
-print("Jorge" in bienvenida) #False
-print("Hola" not in bienvenida) #True
+#Variables de Tipo Booleano
+ver1 = True
+ver2 = False
 
-print(resultado)
-print(pasada)
-print(nombre)
+#Variables Constantes
+RECAUDO = 2.02145
+ESTATURA = 1.70

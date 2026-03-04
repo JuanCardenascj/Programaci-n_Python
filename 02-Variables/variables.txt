@@ -1,0 +1,33 @@
+!!!!! Variables !!!!!
+
+1. Reserva de memoria que pueden almacenar valores que se pueden cambiar durante la ejecución de un programa y corresponde a nombres que representan un valor de cierto tipo int, float, etc...
+
+  1.1 Son características de las variables:
+  ... Es una unidad básica de almacenamiento de valores o datos
+  ... Cada variable tiene un tipo y un identificador
+  ... Es un bombre simbólico con un valor
+  ... Las variables pueden ser inicializadas
+
+
+  1.2 Los nombres de las variables:
+  ... Deben inicar con una letra del alfabeto, guión subrayado
+  ... Los siguientes caracteres pueden ser dígitos
+  ... No se pueden usar palabras reservadas como nombres de las variables
+  ... El estándar para nombrar variables es iniciar con minuscula, para el caso cuando el nombre está compuesto por dos ó mas palabras, la letra inicial apartir de la segunda palabra va en mayúscula
+
+
+  Ejemplos: costo, iva, x, x1, x2, x3, costoItemFacturado, nombreEmpleado
+
+
+!!!! Definición de las Variables !!!!!
+
+2. Una variable es un espacio en memoria donde se registra una determinada información que puede ser texto, números y booleanos. Las variables en Python se crean cuando se les asigna un valor por primera vez, para lo cual se utiliza el operador de igualdad (==). Se deben definir antes de utilizarlas o ser nombradas dentro del programa para lo cual se debe tener en cuenta el nombre de la variable.
+
+!!!! Constantes !!!!
+
+3. Una constante es un identificador que es similar a un variable, las constantes se escriben en mayúsculas sostenida todo el nombre y separadas las palabras con el carácter underscore_
+ 
+   Ejemplos:  PI = 3.1416
+              IVA = 0.19
+              VALOR_MAXIMO = 100
+              LETRA = 'S'

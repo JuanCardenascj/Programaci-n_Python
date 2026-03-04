@@ -1,0 +1,13 @@
+!!!! Palabras Reservadas !!!!
+Como cualquier lenguaje de programación Python tiene un conjunto de palabras reservadas incorporadas, para identificar definiciones, condiciones, ciclos, entre otros, términos que no se pueden utilizar como nombres de los identificadores.
+
+Palabra  || Descripción
+False       Valor booloeano, resultado de operaciones de comparacion u operaciones lógicas en Python.
+True        Valor booleano, iugal que false, resultado de operaciones de comparación u operaciones lógicas en Python
+None        Representa a un valor nulo
+and         Operador lógico
+as          Se maneja para crear un alias al importar un módulo
+assert      Se utiliza con fines de depuración
+async       Proporciona por biblioteca 'async' en pytho. Se utiliza para escribir codigo concurrente en Python
+await       Proporciona por la biblioteca , Se utuliza para escribir codigo concurrente
+

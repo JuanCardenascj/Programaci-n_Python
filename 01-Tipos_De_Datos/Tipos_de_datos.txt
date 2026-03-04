@@ -1,0 +1,11 @@
+!!!!! Tipos de Datos !!!!
+
+1. En el lenguaje de programación se distinguen datos de tipo numérico y de tipo bool que se caracterizan por tener un único valor; las cadenas de caracteres, las listas, las tuplas, los conjuntos y diccionarios, se utilizan para registrar información de diferentes tipos.
+
+Ejemplos: 
+    1. Entero o Int
+    2. Float o Decimal
+    3. Booleano
+    4. Str o Cadena
+
+    Los tipos de datos entero o int enPython nos permiten almacenar un valor numérico no decimal ya sea posotivo o negativo de cualquier valor. Función type() nos devuelve el tipo de la variable, y podemos ver como efectivamente es de la clase int.
