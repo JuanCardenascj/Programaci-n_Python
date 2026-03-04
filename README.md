@@ -76,21 +76,6 @@ El objetivo principal es reforzar la lógica de programación, estructuras de da
 
 ---
 
-## 📂 Organización del Proyecto
-📂 Fundamentos
-┣ 📂 Funciones
-┣ 📂 POO
-┣ 📂 Estructuras_Datos
-┃ ┣ 📂 Listas
-┃ ┣ 📂 Colas
-┃ ┣ 📂 Árboles
-┃ ┣ 📂 Grafos
-┃ ┗ 📂 Diccionarios
-┗ 📄 README.md
-
-
----
-
 ## 🚀 Progreso de Aprendizaje
 
 Este repositorio se encuentra en constante actualización mientras continúo aprendiendo Python.
