@@ -10,4 +10,19 @@ as          Se maneja para crear un alias al importar un módulo
 assert      Se utiliza con fines de depuración
 async       Proporciona por biblioteca 'async' en pytho. Se utiliza para escribir codigo concurrente en Python
 await       Proporciona por la biblioteca , Se utuliza para escribir codigo concurrente
-
+break       Se utiliza en el interior de los bucles for y while para alterar su comportamiento normal
+class       Se usa para definir una nueva clase definida por el usuario
+continue    Se utiliza en el inferior de los bucles for y while para alterar su comportameinto normal
+def         Usado para definir una función definida por el usuario
+del         Para eliminar un objeto
+elif        Se emplea en declaraciones condicionales, igual "else" e "if"
+else        Se usa en declaraciones condiconales, igual "elif" e "if"
+except      Se aplica para crear excepciones, qué hacer cuando curre una excepción, igual que "raise" y "try"
+finally     Su uso garantiza que el bloque el código dentro de él se ejecute incluso si hay una excepción no controlada
+for         Utilizado para hacer bucles. Generalmente lo usamos cuando sabemos la cantidad de veces que queremos que se ejecute ese bucle
+form        Para importar partes especificas de un módulo
+global      Para declarar una variable global
+if          Se utiliza en declaraciones condiconales, igual "else" y "elif"
+import      Para importar un módulo
+in          Para comprobar si un valor está presente en una lista, tupla, etc. Devuelve True si el valor está presente, de lo contrario devuelve False
+is          Se usa para probar si las dos variables se refieren al mismo objeto. True si son iguales y False si no.

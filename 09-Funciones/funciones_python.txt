@@ -1,0 +1,11 @@
+Función              Descripción              Ejemplo
+abs()        Retorna el valor absoluto de un numero
+print()      Imprime en pantall el argumetnos
+len()        Determina la longitud en caracteres de una cadena
+upper()      Convierte una cadena en mayuscula
+lower()      Convierte una cadena en minuscula
+str()        Convierte un valor numérico en texto
+int()        Convierte a un valor entero
+float()      Convierte un valor a decimal
+max()        Determina el máximo entre un grupo de números
+min()        Determina el minimo entre un grupo de números

@@ -1,0 +1,20 @@
+!!!!!! Funciones !!!!
+Una función permmite definir un bloque de código reutilizable que se puede llamar dentro del programa. Las funciones en Python serán una parte del código de las aplicaciones que se construyen en este lenguaje.
+
+En python tiene las siguientes caracteristicas:
+    1. La palabra clace def
+    2. Un nombre de función
+    3. Parentesis. Dentro del parentesis los parametros de entrada aunque estos sean opcionales
+    4. Dos puntos
+    5. Algun bloque de codigo para ejecutar
+    6. Una sentencia de retorno
+
+En este sentido se puede afirmar que las funciones constan de tres partes:
+    1. entrada
+    2. Cuerpo
+    3. Salida
+
+Ejemplo: Función que imprime un saludo
+
+     def saludar():
+        print("Hola gente, como te encuentras")
