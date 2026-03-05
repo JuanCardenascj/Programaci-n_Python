@@ -1,0 +1,15 @@
+Las clases son la entidad básica de la programación orientada a objetos y permite la agrupación de datos y funciones.
+
+Una clase consta de una declaración y un cuerpo. El cuerpo contiene atributos o propiedades y declaraciones de las funciones.
+
+Sintaxis
+   class Nombreclase:
+        <sentencia -1>
+        .
+        .
+        .
+        <sentencia -N>
+   class <nombre - Clase>:
+        <atributos>
+
+        <metodos>
