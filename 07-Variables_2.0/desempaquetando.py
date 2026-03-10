@@ -5,4 +5,4 @@ datos = ("Lucas", "David") #El encapsulamiento solo funciona si la cantidad de v
 
 #Desempaquetado
 nombre,apellido = datos
-print(nombre) #Mostrando resultados
+print(nombre, apellido) #Mostrando resultados

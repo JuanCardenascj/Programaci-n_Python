@@ -20,7 +20,7 @@ Ocurre cuando la clase hija redefine un método del padre."""
 
 class Animal:
     def sonido(self):
-        pass
+        pass #No hace nada, pasa!
 
 class Perro(Animal):
     def sonido(self):
