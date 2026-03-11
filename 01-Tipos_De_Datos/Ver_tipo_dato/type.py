@@ -1,0 +1,5 @@
+#Python tiene una función llamada type()
+print(type(10))
+print(type(3.14))
+print(type("Hola"))
+print(type(True))

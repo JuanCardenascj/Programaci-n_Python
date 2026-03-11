@@ -1,0 +1,7 @@
+#Qué imprimirá?
+a = 10
+b = 2
+
+a = a + b
+
+print(a)

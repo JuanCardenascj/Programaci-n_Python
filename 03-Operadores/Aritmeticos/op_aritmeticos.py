@@ -1,22 +1,22 @@
-"""Operadores Aritmeticos - operadores Matemáticos
+# #1. Operadores aritméticos
+# #Sirven para hacer operaciones matemáticas.
 
-1. Permiten la realización de las operaciones aritméticas básicas que trabajan sobre variables numéricas."""
+# #Operador	Significado	Ejemplo
+# +	suma	5 + 3
+# -	resta	5 - 3
+# *	multiplicación	5 * 3
+# /	división	10 / 2
+# //	división entera	10 // 3
+# %	módulo (residuo)	10 % 3
+# **	potencia	2 ** 3
 
-#Suma y Restas ( + y -)
-suma = 12 + 5
-resta = 23 - 3
+a = 10
+b = 3
 
-#Multiplicación y División (* y /)
-multi = 12 * 3
-division = 12  / 3 #Devuelve entero o decimal
-
-#Potenciación (exponente) (**)
-exponente = 12 ** 5
-
-#Division entera (//)
-division_baja = 123 // 4
-
-#Resto o módulo
-resto = 12 % 3
-
-print(resto)
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a // b)
+print(a % b)
+print(a ** b)
