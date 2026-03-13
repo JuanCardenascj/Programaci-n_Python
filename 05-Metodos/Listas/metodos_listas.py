@@ -1,4 +1,4 @@
-"""Metodos Listas"""
+"""Metodos Listas - Son unas de las estructuras mas importantes en python!"""
 
 #Creando una lista con LIST!
 lista = list(["Hola","soy","david",29])
