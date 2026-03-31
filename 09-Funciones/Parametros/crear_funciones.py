@@ -6,6 +6,7 @@
 def saludar(nombre): #Para llamar el parametro
     print(f"Hola, {nombre}")
 saludar("Juan") #Para darle valor a ese parametro!
+saludar("Silvia Cárdenas")
 
 
 #Ejemplo2.!
