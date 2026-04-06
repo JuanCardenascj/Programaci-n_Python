@@ -1,9 +1,19 @@
-"""Estrutuctura repetitiva utilizada en programación que permite especificar que un programa o método debe reprtir un bloque de código, mientras se cumpla la condición, cuando deje de cumplir la condición o expresión booleana, las iteraciones terminan y se ejecutará la primera sentencia que esta inmediatamente después de la estructura repetitiva while!"""
+"""While --> Utilizada para repetir una tarea N cantidad de veces de acuerdo a una condición, mientras sea verdadera"""
 
-#Ejemplo 
+nombre = ""
+correo = ""
+mensaje = ""
 
-numero = 1 # Crea la variable, la define y le da un valor
+condicion_salida = "CONTINUE..!"
 
-while numero <= 10: #Creamos el bucle whhile y le damos la condición
-    print(numero) #Imprimimos
-    numero += 1 #Utilizamos el operador de asginación para que aumente de 1 en 1.!
+#Definición del ciclo while...
+
+while condicion_salida == "CONTINUE..!":
+    nombre = input("Por favor Digite su nombre ... ")
+    correo = input("Por favor Digite su correo.... ")
+    mensaje = input("Por favor Digite su mensaje a enviar ... ")
+
+    print(f"""
+Mensaje enviado a {nombre} con el correo de {correo} y el mensaje enviado es: {mensaje}
+          """)
+    condicion_salida = input("En caso de querer continuar con el programa escriba CONTINUE: ")
