@@ -1,15 +1,27 @@
-"""Funciones con parámetros.!
-   
-   Los parámetros permiten que la función reciba datos..!"""
+"""Parametros de Funciones: Información del usuario, que es la que nos da el usuario!
 
-#Ejemplo.!
-def saludar(nombre): #Para llamar el parametro
-    print(f"Hola, {nombre}")
-saludar("Juan") #Para darle valor a ese parametro!
-saludar("Silvia Cárdenas")
+   Son esos inputs que le damos a nuestra función para que ejecute una cierta cantidad de tareas especiales....!!
+"""
 
+#Se realizaran las operaciones aritmeticas - Se necesitan ciertos inputs.!
 
-#Ejemplo2.!
-def sumar(a, b):
-    print(a + b)
-sumar(12, 5)
+def sumar(numero1, numero2):
+    resultado = numero1 + numero2 #Para guardar el resultado en esta variable
+    print(f"La suma entre {numero1}  y {numero2} es igual a: {resultado}")
+
+def resta(numero1, numero2):
+    resultado = numero1 - numero2
+    print(f"La resta entre {numero1}  y {numero2} es de: {resultado}")
+
+def multiplicacion(numero1, numero2):
+    resultado = numero1 * numero2
+    print(f"La multiplicación entre {numero1} y {numero2} es de: {resultado}")
+
+def dividir(numero1, numero2):
+    resultado = numero1 / numero2
+    print(f"La división entre {numero1} y {numero2} es de: {resultado}")
+
+sumar(250, 3)
+resta(250, 3)
+multiplicacion(250, 3)
+dividir(250, 3)
