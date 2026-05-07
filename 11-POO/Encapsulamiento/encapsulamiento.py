@@ -5,7 +5,7 @@ Por defecto todos los atributos y métodos de una clase son públicos, es decir 
 class Persona:
     def __init__(self, identificacion, nombre, edad):
         self.__identificacion = identificacion #Doble guion bajo. Privado!
-        self.nombre = nombre
+        self._nombre = nombre #Se puede acceder y modificar pero no seria lo correcto!
         self.edad = edad
     
     def saludo(self):
