@@ -7,5 +7,9 @@ Ejemplos:
     2. Float o Decimal
     3. Booleano
     4. Str o Cadena
+    5. List o listas
+    6. Tuple o tuplas
+    7. Dict o diccionarios
+    8. Set o conjuntos
 
     Los tipos de datos entero o int enPython nos permiten almacenar un valor numérico no decimal ya sea posotivo o negativo de cualquier valor. Función type() nos devuelve el tipo de la variable, y podemos ver como efectivamente es de la clase int.
