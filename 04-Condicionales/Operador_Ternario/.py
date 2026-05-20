@@ -14,3 +14,8 @@ print(mensaje)
 #Utilizando el ternario
 mensaje = "Usted es mayor de edad" if edad >= 18 else "Usted es menor de edad" #En una sola linea de codigo
 print(mensaje)
+
+#Prueba ternaria
+pregunta = input("Como se encuentra el dia de hoy ")
+saludo = "Buenos dias! " if pregunta == "Bien o muy bien" else "Usted se encuentra muy bien..!"
+print(saludo)
