@@ -25,3 +25,12 @@ if edad2 >= 18:
         print("Usted es un adulto joven")
     else:
         print("Usted es un adulto!")
+
+#Otra anidada con datos al usuario
+print("hola...! ")
+nombre1 = (input("Por favor digite su nombre .... "))
+if nombre1 == "Juan David":
+    if nombre1 == "Juancho":
+        print("Hola Juan Cárdenas ¿Como estas?")
+    else:
+        print("Eres tu Juan david? ")
