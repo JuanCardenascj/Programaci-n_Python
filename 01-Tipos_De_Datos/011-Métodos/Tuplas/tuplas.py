@@ -1,6 +1,27 @@
 """Es una estructura de datos inmutable y permite almacenar una secuencia de objetos
 y permite acceder a ellos atravez del indice..!"""
 
+colores = ("rojo", "verde", "azul")
+
+#Acceder a elemento
+print(colores[0])
+print(colores[1])
+
+#Recorrer la tupla
+for color in colores:
+    print(color)
+
+#Buscar 
+if "verde" in colores:
+    print("Si existe")
+
+#Contar elementos
+print(len(colores))
+
+#Convertir tuplas -> lista
+lista = list(colores)
+
+
 mi_tupla = (123, False, "edwar", 0.6434)
 print(mi_tupla[0])
 

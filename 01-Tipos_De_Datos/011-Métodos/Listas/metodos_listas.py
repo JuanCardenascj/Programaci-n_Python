@@ -2,6 +2,8 @@
 
 1. Las listas son mutables...!"""
 
+frutas = ["manzana", "banano", "pera", "uva"]
+
 #Creando una lista con LIST!
 lista = ["Hola","soy","david",29]
 
@@ -13,7 +15,7 @@ print(cantidad_elementos)
 lista.append("Ethan")
 print(lista)
 
-#Agregando un elemento a la lista en un indice especifico
+#Agregando un elemento a la lista en un indice especifico o posición específica
 lista.insert(2, "Silvia")
 print(lista)
 
@@ -42,3 +44,11 @@ lista2.sort() #No funciona con cadenas de texto
 
 #Eliminando todos los elemtnos de la lista
 lista.clear()
+
+#Busca elementos --> IN
+if "uva" in frutas:
+    print("existe")
+
+#Recorrer listas
+for fruta in frutas:
+    print(fruta)

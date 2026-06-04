@@ -26,3 +26,12 @@ print(edad)
 print(altura)
 print(nombre)
 print(estudiante)
+
+"""
+Cuente cuántos colores hay..
+"""
+
+colores = ["azul", "rojo", "naranja", "verde"]
+
+#Contando cuantos colores hay...
+print(len(colores))

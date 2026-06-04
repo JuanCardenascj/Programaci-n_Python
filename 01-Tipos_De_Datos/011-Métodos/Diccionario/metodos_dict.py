@@ -28,3 +28,33 @@ print(mi_diccionario2.values())
 
 #Both
 print(mi_diccionario3.items())
+
+persona = {
+    "nombre": "Juan",
+    "edad": 20,
+    "ciudad": "Arauca"
+}
+
+#Obtener valores
+print(persona["nombre"])
+
+#Modificar valores
+persona["edad"] = 21
+
+#Agregar valores
+persona["profesion"] = "Ingeniero"
+
+#Eliminar valores
+del persona["ciudad"]
+
+#Verificar si existe una clave
+if "edad" in persona:
+    print("Existe")
+
+#Recorrer solo claves
+for clave in persona:
+    print(clave)
+
+#Clave y valor
+for clave, valor in persona.items():
+    print(clave, valor)

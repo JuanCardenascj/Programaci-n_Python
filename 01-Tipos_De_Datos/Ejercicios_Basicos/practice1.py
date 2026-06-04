@@ -8,3 +8,17 @@ print(type(a))
 print(type(b))
 print(type(c))
 print(type(d))
+
+"""
+Crea una lista con:
+
+"rojo", "verde", "azul"
+
+e imprime el segundo color.
+"""
+
+#Crenado una lista....!
+lista1 = ["rojo", "verde", "azul"]
+
+#Imprimiendo el segundo color
+print(lista1[1])
