@@ -21,7 +21,7 @@ def dividir(numero1, numero2):
     resultado = numero1 / numero2
     print(f"La división entre {numero1} y {numero2} es de: {resultado}")
 
-sumar(250, 3)
+sumar(23, 25)
 resta(250, 3)
 multiplicacion(250, 3)
 dividir(250, 3)
