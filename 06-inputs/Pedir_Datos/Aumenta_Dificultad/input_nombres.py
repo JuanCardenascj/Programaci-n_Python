@@ -1,18 +1,26 @@
 """INPUTS"""
 
-# Pedir datos al usuario
+import json
+import os
+
+# Archivo donde se guardarán las habilidades
+ARCHIVO = "habilidades.json"
+
+# Cargar habilidades desde archivo o crear por defecto
+if os.path.exists(ARCHIVO):
+    with open(ARCHIVO, "r") as f:
+        habilidades = json.load(f)
+else:
+    habilidades = {
+        "Daño": 180,
+        "Corta curas": 95,
+        "Heridas Profundas": 50,
+        "Daño Magico": 120,
+        "Armadura": 150
+    }
+
 nombre_apellido = input("::::::::BIENVENIDO::::::::\nDigite su nombre y apellido: ")
 print(f"Bienvenido: {nombre_apellido}")
-
-# Habilidades iniciales
-habilidades = {
-    "Daño": 10,
-    "Corta curas": 5,
-    "Heridas Profundas": 3,
-    "Daño Magico": 8,
-    "Armadura": 15
-}
-
 print(f"\n{nombre_apellido}, ¿qué deseas hacer?")
 print("1) Revisar habilidades")
 print("2) Mejorar habilidades")
@@ -27,7 +35,7 @@ if opcion == "1":
         print(f"{nombre}: {nivel}")
 
 elif opcion == "2":
-    print("\nEntrando al sistema de mejoras...")
+    print("\n......Entrando al sistema de mejoras...")
     
     print("""
 1. Daño
@@ -37,17 +45,34 @@ elif opcion == "2":
 5. Armadura
 """)
 
+    # Mapeo de números a nombres
+    mapa = {
+        "1": "Daño",
+        "2": "Corta curas",
+        "3": "Heridas Profundas",
+        "4": "Daño Magico",
+        "5": "Armadura"
+    }
+
     habilidad = input("¿Qué habilidad deseas mejorar?: ")
 
-    if habilidad in habilidades:
-        habilidades[habilidad] += 5
-        print(f"\n{habilidad} aumentó +5 puntos 🔥")
-        print(f"Nuevo nivel: {habilidades[habilidad]}")
+    if habilidad in mapa:
+        nombre = mapa[habilidad]
+        habilidades[nombre] += 25
+        print(f"\n{nombre} aumentó +25 puntos 🔥")
+        print(f"Nuevo nivel: {habilidades[nombre]}")
 
+        # Guardar los cambios en el archivo
+        with open(ARCHIVO, "w") as f:
+            json.dump(habilidades, f, indent=4)
+        print("¡Cambios guardados correctamente!")
     else:
         print("Esa habilidad no existe")
 
 elif opcion == "3":
+    # Guardar antes de salir (por si acaso)
+    with open(ARCHIVO, "w") as f:
+        json.dump(habilidades, f, indent=4)
     print("¡Hasta luego, invocador!")
 
 else:

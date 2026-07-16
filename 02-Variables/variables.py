@@ -1,7 +1,7 @@
 #Variables de Tipo STR O CADENA
-nombre = "David" #Primero declara y luego la define
-nombre = "Cárdenas" #Primero declara y luego la define
-nombre = "Jorge" #Primero declara y luego la define
+nombre1 = "David" #Primero declara y luego la define
+apellido = "Cárdenas" #Primero declara y luego la define
+nombre2 = "Jorge" #Primero declara y luego la define
 
 #Variables de Tipo Int o Entero
 num1 = 12

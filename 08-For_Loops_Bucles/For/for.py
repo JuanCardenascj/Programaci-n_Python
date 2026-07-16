@@ -15,3 +15,7 @@ set_departamentos = {'Arauca', 'Atlantico', 'Bolivar'}
 
 for nombre in lista_nombre: #Para cada nombre dentro de lista_nombre
     print(nombre)
+for notas in tupla_notas:
+    print(notas)
+for departamentos in set_departamentos:
+    print(departamentos)
