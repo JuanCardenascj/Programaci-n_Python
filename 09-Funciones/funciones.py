@@ -129,6 +129,28 @@ print(triplicar(5)) # 15
 """REPASAR LAS FUNCIONES CON ARCHIVOS"""
 
 #FUNCIONES CON ARCHIVOS (BASICAS)
+"""
+with --> Abre y cierra automaticamente el archivo
+open() --> Abre un archivo para leer o escribir
+#mi_archivo.txt --> Nombre del archivo para saber que archivo usar
+#w --> Modo escritura (write)
+#r --> Modo lectura (red)
+#a --> Modo agregar (append)
+encoding-utf-8 --> Permite tildes y ñ
+as archivo --> Nombre temporal del archivo 
+archivo.write() --> Escribe texto en el archivo
+archivo.read() --> Lee todo el contenido
+"""
+
+#Ejemplo sin función (el codigo básico)
+with open("Prueba.txt", "w", encoding="utf-8") as archivo:
+    archivo.write("Mi primer archivo")
+
+with open("Prueba.txt", "r", encoding="utf-8") as archivo:
+    contenido = archivo.read()
+    print(contenido)
+
+
 #Ejemplo 1: Guardar texto en un archivo
 def guardar_texto(nombre_archivo, contenido):
     with open(nombre_archivo, "w", encoding="utf-8") as archivo:
@@ -150,6 +172,22 @@ print(leer_texto("mensaje.txt"))  # Hola, este es mi primer archivo
 
 """Repasar Json """
 #FUNCIONES CON JSON (BÁSICO)
+"""Impor json: --> Trae la librería para trabjar con Json
+   json.dump() --> Guardar datos en formato json
+   json.load() --> Carga datos desde un archivo json
+   indent-4 --> Hace que el archivo sea más legible (con espacios)
+   ensure_ascii=False --> Permite guardar tildes y ñ"""
+
+
+#Ejemplo paso a paso: Guardar una lista en json sin función
+import json
+
+tareas = ["Aprender Python", "Estudiar Json"]
+
+with open("tareas.json", "w", encoding="utf-8") as archivo:
+    json.dump(tareas, archivo, indent=4, ensure_ascii=False)
+
+
 #Ejemplo 1: Guardar lista en Json
 import json
 
