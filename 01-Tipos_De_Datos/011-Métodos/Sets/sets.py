@@ -14,6 +14,8 @@ numeros = {1, 2, 3, 3, 4}
 #Declaraciones
 mi_set = {1,2,3,4,5}
 print(mi_set)
+mi_set2 = {"Docto", 324, "David", False}
+print(mi_set2)
 
 #Declaración por medio de función Set!
 mi_set2 = set()

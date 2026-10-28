@@ -2,25 +2,45 @@
 y permite acceder a ellos atravez del indice..!"""
 
 colores = ("rojo", "verde", "azul")
+familia = ("David", "Zoraida", "Jorge", "Alan", "Erick", "Leidy", "JuanDa", "Jhon")
 
 #Acceder a elemento
 print(colores[0])
 print(colores[1])
+print(familia[0])
+print(familia[1])
+print(familia[2])
+print(familia[3])
+print(familia[4])
+print(familia[5])
+
 
 #Recorrer la tupla
 for color in colores:
     print(color)
+for familiar in familia:
+    print(familiar)
 
 #Buscar 
 if "verde" in colores:
     print("Si existe")
+if "David" in familia:
+    print("Si existe dentro de familia")
+if "Zoraida" in familia:
+    print("Si existe dentro de familia")
+if "Jorge" in familia:
+    print("Si existe dentro de familia")
+if "Alan" in familia:
+    print("Si existe dentro de familia")
 
 #Contar elementos
 print(len(colores))
+print(len(familia))
 
 #Convertir tuplas -> lista
 lista = list(colores)
-
+tupla = list(familia)
+print(tupla)
 
 mi_tupla = (123, False, "edwar", 0.6434)
 print(mi_tupla[0])
