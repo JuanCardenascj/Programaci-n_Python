@@ -9,6 +9,11 @@ def saludar(nombre): #Nombre -> Parametro que recibe
 mensaje = saludar("Anderson Jiménez")
 print(mensaje)
 
+def despedirse(nombre2):
+    return f"Adios, que tengas bonita noche {nombre2}"
+mensaje2 = despedirse("Anderson Jiménez")
+print(mensaje2)
+
 #Ejemplo 2: Función que Suma Dos Números
 def sumar(a, b):
     return a + b
