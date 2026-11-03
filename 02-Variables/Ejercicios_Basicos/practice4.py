@@ -2,3 +2,5 @@
 x = int(input("Digite un numero "))
 y = int(input("Digite un numero "))
 print(x * y)
+print(x + y)
+print(x - y)

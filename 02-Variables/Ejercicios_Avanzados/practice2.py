@@ -16,3 +16,15 @@ persona = [
 ]
 print(persona)
 print(persona[1]["Nombre"])
+
+
+familia = [
+    {"Nombre" : "Zoraida", "Edad" : 50},
+    {"Nombre" : "JorgeA", "Edad" : 64},
+    {"Nombre" : "Silvia", "Edad" : 30},
+    {"Nombre" : "Leidy", "Edad" : 41}
+]
+
+print(familia)
+print(familia[1]["Nombre"])
+print(familia[1]["Edad"])
