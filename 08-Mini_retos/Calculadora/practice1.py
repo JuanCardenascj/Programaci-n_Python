@@ -2,6 +2,17 @@
 a = int(input("Número 1: "))
 b = int(input("Número 2: "))
 
-resultado = a + b
+opcion = int(input("Ingrese 1 para sumar, 2 para restar, 3 para multiplicar, 4 para dividir, 5 para módulo, 6 para exponente: "))
 
-print("Resultado:", resultado)
+if opcion == 1:
+    print("La suma es: ", a + b)
+elif opcion == 2:
+    print("La resta es: ", a - b)
+elif opcion == 3:
+    print("La multiplicación es: ", a * b)
+elif opcion == 4:
+    print("La división es: ", a / b)
+elif opcion == 5:
+    print("El módulo es: ", a % b)
+elif opcion == 6:
+    print("El exponente es: ", a ** b)
