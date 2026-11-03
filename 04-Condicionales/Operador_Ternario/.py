@@ -4,7 +4,7 @@ Utilizado para asignarle valores a una variable, deacuerdo a una condición"""
 edad = int(input("Por favor Ingrese su edad.... "))
 mensaje = ""
 
-if edad >= 18:
+if edad >= 19:
     mensaje = "Usted es mayor de edad"
 else:
     mensaje = "Usted es menor de edad"
@@ -12,7 +12,7 @@ else:
 print(mensaje)
 
 #Utilizando el ternario
-mensaje = "Usted es mayor de edad" if edad >= 18 else "Usted es menor de edad" #En una sola linea de codigo
+mensaje = "Usted es mayor de edad" if edad >= 19 else "Usted es menor de edad" #En una sola linea de codigo
 print(mensaje)
 
 #Prueba ternaria

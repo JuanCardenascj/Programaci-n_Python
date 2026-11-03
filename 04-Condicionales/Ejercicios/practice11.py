@@ -9,7 +9,7 @@ elif solo se evalúa si el if anterior es falso
 else se ejecuta si todas las anteriores son falsas
 """
 
-clima = "lluvioso"
+clima = input("Ingrese el clima (soleado/lluvioso): ")
 
 if clima == "soleado":
     print("Ve al parque")
